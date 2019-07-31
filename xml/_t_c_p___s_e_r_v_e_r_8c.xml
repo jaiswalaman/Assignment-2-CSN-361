@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_t_c_p___s_e_r_v_e_r_8c" kind="file" language="C++">
+    <compoundname>TCP_SERVER.c</compoundname>
+    <includes local="no">netdb.h</includes>
+    <includes local="no">netinet/in.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">sys/socket.h</includes>
+    <includes local="no">sys/types.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>17114008_Aman_Jaiswal/Q1/TCP_SERVER.c</label>
+        <link refid="_t_c_p___s_e_r_v_e_r_8c"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>netinet/in.h</label>
+      </node>
+      <node id="12">
+        <label>stdlib.h</label>
+      </node>
+      <node id="10">
+        <label>netdb.h</label>
+      </node>
+      <node id="16">
+        <label>sys/types.h</label>
+      </node>
+      <node id="14">
+        <label>string.h</label>
+      </node>
+      <node id="13">
+        <label>unistd.h</label>
+      </node>
+      <node id="15">
+        <label>sys/socket.h</label>
+      </node>
+      <node id="17">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_t_c_p___s_e_r_v_e_r_8c_1a392fb874e547e582e9c66a08a1f23326" prot="public" static="no">
+        <name>MAX</name>
+        <initializer>80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" line="14" column="17" bodyfile="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_t_c_p___s_e_r_v_e_r_8c_1a614217d263be1fb1a5f76e2ff7be19a2" prot="public" static="no">
+        <name>PORT</name>
+        <initializer>8080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" line="15" column="9" bodyfile="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_t_c_p___s_e_r_v_e_r_8c_1a1e43924adac4ae865aa0acf79710261c" prot="public" static="no">
+        <name>SA</name>
+        <initializer>struct sockaddr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" line="16" column="9" bodyfile="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_t_c_p___s_e_r_v_e_r_8c_1ac17020a38607ab29ce18939d5194a32a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void func</definition>
+        <argsstring>(int sockfd)</argsstring>
+        <name>func</name>
+        <param>
+          <type>int</type>
+          <declname>sockfd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function designed for chat between client and server. <simplesect kind="author"><para>Aman Jaiswal </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sockfd-</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>socket file descriptor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="date"><para>2/28/2009 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" line="24" column="1" bodyfile="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" bodystart="24" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_c_p___s_e_r_v_e_r_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Driver function <simplesect kind="author"><para>Aman Jaiswal </para></simplesect>
+<simplesect kind="date"><para>2/28/2009 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" line="57" column="1" bodyfile="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c" bodystart="57" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Create TCP socket.connect newly created client socket to server. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Aman Jaiswal </para></simplesect>
+<simplesect kind="date"><para>01/08/2019 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#include<sp/>&lt;netdb.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;netinet/in.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/socket.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/types.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_t_c_p___s_e_r_v_e_r_8c_1a392fb874e547e582e9c66a08a1f23326" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX<sp/>80<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_t_c_p___s_e_r_v_e_r_8c_1a614217d263be1fb1a5f76e2ff7be19a2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PORT<sp/>8080<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_t_c_p___s_e_r_v_e_r_8c_1a1e43924adac4ae865aa0acf79710261c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SA<sp/>struct<sp/>sockaddr<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="_t_c_p___s_e_r_v_e_r_8c_1ac17020a38607ab29ce18939d5194a32a" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_t_c_p___s_e_r_v_e_r_8c_1ac17020a38607ab29ce18939d5194a32a" kindref="member">func</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sockfd)<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buff[<ref refid="_t_c_p___s_e_r_v_e_r_8c_1a392fb874e547e582e9c66a08a1f23326" kindref="member">MAX</ref>];<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;;)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bzero(buff,<sp/><ref refid="_t_c_p___s_e_r_v_e_r_8c_1a392fb874e547e582e9c66a08a1f23326" kindref="member">MAX</ref>);<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>read(sockfd,<sp/>buff,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(buff));<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;From<sp/>client:<sp/>%s\t<sp/>To<sp/>client<sp/>:<sp/>&quot;</highlight><highlight class="normal">,<sp/>buff);<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bzero(buff,<sp/><ref refid="_t_c_p___s_e_r_v_e_r_8c_1a392fb874e547e582e9c66a08a1f23326" kindref="member">MAX</ref>);<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n<sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((buff[n++]<sp/>=<sp/>getchar())<sp/>!=<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>write(sockfd,<sp/>buff,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(buff));<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strncmp(</highlight><highlight class="stringliteral">&quot;exit&quot;</highlight><highlight class="normal">,<sp/>buff,<sp/>4)<sp/>==<sp/>0)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Server<sp/>Exit...\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="57" refid="_t_c_p___s_e_r_v_e_r_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_t_c_p___s_e_r_v_e_r_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sockfd,<sp/>connfd,<sp/>len;<sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">sockaddr_in<sp/>servaddr,<sp/>cli;<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>sockfd<sp/>=<sp/>socket(AF_INET,<sp/>SOCK_STREAM,<sp/>0);<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sockfd<sp/>==<sp/>-1)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;socket<sp/>creation<sp/>failed...\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(0);<sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Socket<sp/>successfully<sp/>created..\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>bzero(&amp;servaddr,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(servaddr));<sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>servaddr.sin_family<sp/>=<sp/>AF_INET;<sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>servaddr.sin_addr.s_addr<sp/>=<sp/>htonl(INADDR_ANY);<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>servaddr.sin_port<sp/>=<sp/>htons(<ref refid="_t_c_p___s_e_r_v_e_r_8c_1a614217d263be1fb1a5f76e2ff7be19a2" kindref="member">PORT</ref>);<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((bind(sockfd,<sp/>(<ref refid="_t_c_p___s_e_r_v_e_r_8c_1a1e43924adac4ae865aa0acf79710261c" kindref="member">SA</ref>*)&amp;servaddr,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(servaddr)))<sp/>!=<sp/>0)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;socket<sp/>bind<sp/>failed...\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(0);<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Socket<sp/>successfully<sp/>binded..\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((listen(sockfd,<sp/>5))<sp/>!=<sp/>0)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Listen<sp/>failed...\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(0);<sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Server<sp/>listening..\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>len<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(cli);<sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>connfd<sp/>=<sp/>accept(sockfd,<sp/>(<ref refid="_t_c_p___s_e_r_v_e_r_8c_1a1e43924adac4ae865aa0acf79710261c" kindref="member">SA</ref>*)&amp;cli,<sp/>&amp;len);<sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(connfd<sp/>&lt;<sp/>0)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;server<sp/>acccept<sp/>failed...\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exit(0);<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;server<sp/>acccept<sp/>the<sp/>client...\n&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_t_c_p___s_e_r_v_e_r_8c_1ac17020a38607ab29ce18939d5194a32a" kindref="member">func</ref>(connfd);<sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>close(sockfd);<sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="17114008_Aman_Jaiswal/Q1/TCP_SERVER.c"/>
+  </compounddef>
+</doxygen>

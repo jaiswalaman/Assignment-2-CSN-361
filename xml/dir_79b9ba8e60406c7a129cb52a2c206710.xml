@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_79b9ba8e60406c7a129cb52a2c206710" kind="dir">
+    <compoundname>17114008_Aman_Jaiswal/Q1</compoundname>
+    <innerfile refid="_t_c_p___c_l_i_e_n_t_8c">TCP_CLIENT.c</innerfile>
+    <innerfile refid="_t_c_p___s_e_r_v_e_r_8c">TCP_SERVER.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="17114008_Aman_Jaiswal/Q1/"/>
+  </compounddef>
+</doxygen>

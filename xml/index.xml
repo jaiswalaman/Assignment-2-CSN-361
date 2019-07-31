@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="_t_c_p___c_l_i_e_n_t_8c" kind="file"><name>TCP_CLIENT.c</name>
+    <member refid="_t_c_p___c_l_i_e_n_t_8c_1a392fb874e547e582e9c66a08a1f23326" kind="define"><name>MAX</name></member>
+    <member refid="_t_c_p___c_l_i_e_n_t_8c_1a614217d263be1fb1a5f76e2ff7be19a2" kind="define"><name>PORT</name></member>
+    <member refid="_t_c_p___c_l_i_e_n_t_8c_1a1e43924adac4ae865aa0acf79710261c" kind="define"><name>SA</name></member>
+    <member refid="_t_c_p___c_l_i_e_n_t_8c_1ac17020a38607ab29ce18939d5194a32a" kind="function"><name>func</name></member>
+    <member refid="_t_c_p___c_l_i_e_n_t_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_t_c_p___s_e_r_v_e_r_8c" kind="file"><name>TCP_SERVER.c</name>
+    <member refid="_t_c_p___s_e_r_v_e_r_8c_1a392fb874e547e582e9c66a08a1f23326" kind="define"><name>MAX</name></member>
+    <member refid="_t_c_p___s_e_r_v_e_r_8c_1a614217d263be1fb1a5f76e2ff7be19a2" kind="define"><name>PORT</name></member>
+    <member refid="_t_c_p___s_e_r_v_e_r_8c_1a1e43924adac4ae865aa0acf79710261c" kind="define"><name>SA</name></member>
+    <member refid="_t_c_p___s_e_r_v_e_r_8c_1ac17020a38607ab29ce18939d5194a32a" kind="function"><name>func</name></member>
+    <member refid="_t_c_p___s_e_r_v_e_r_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="both_8c" kind="file"><name>both.c</name>
+    <member refid="both_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="orphan_8c" kind="file"><name>orphan.c</name>
+    <member refid="orphan_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="zombie_8c" kind="file"><name>zombie.c</name>
+    <member refid="zombie_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_eb118e4d55315d9a8a6bdf82f11cee29" kind="dir"><name>17114008_Aman_Jaiswal</name>
+  </compound>
+  <compound refid="dir_79b9ba8e60406c7a129cb52a2c206710" kind="dir"><name>17114008_Aman_Jaiswal/Q1</name>
+  </compound>
+  <compound refid="dir_6b3a94edd015c5a2159c299ea96b1663" kind="dir"><name>17114008_Aman_Jaiswal/Q2</name>
+  </compound>
+</doxygenindex>
